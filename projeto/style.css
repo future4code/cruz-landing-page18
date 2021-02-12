@@ -1,6 +1,4 @@
-*,
-.sub-menu
- {
+* {
     margin: 0;
     padding: 0;
     font-size: 16px;
@@ -24,127 +22,64 @@ main{
     height: 100vh;
 }
 
-/* header */
+/* header */ 
 
-header {
-    background: #1f1f24;
-    width: 100%;
+header{
+	background: #1f1f24;
+	width: 100%;
 }
-
 .logo img {
-    display: block;
+	display: block;
     width: 200px;
 }
 
-img {
+img{
     max-width: 100%;
 }
 
-.logo {
-    padding: 0 2%;
+.secao{
+    width: 100%;
+}
+.logo{
+    padding: 0 1%;
 }
 
-.container {
+.container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-/*header*/
-
-/*div propaganda principal*/
-
-.inscreva-se {
-    width: 100%;
-    height: 500px;
-    background-color: #dbd6d6;
+.menu-principal {
+	font-weight: bold;
+	list-style-type: none;
 }
 
-
-.upfour {
-    width: 350px;
-    height: 300px;
-    float: right;
-    background-color: #ffffff;
-    border-radius: 9px;
-    margin-right: 3em;
-    margin-top: 5em;
-=======
 .menu-principal a {
 	display: block;
     color: #d2c2b0 ;
     padding: 0 1em;
 	text-decoration: none;
     font-size: 20px;
-
 }
 
-#start {
-    color: #48369F;
-    font-family: sans-serif;
-    font-size: 26px;
-    padding-top: 22px;
-    padding-left: 22px;
+.menu-principal a, .iconeredes:hover {
+opacity: 0.8;
 }
 
-.dados-iniciais {
-    padding-top: 57px;
-    padding-left: 22px;
+.menu-principal li {
+    display: inline-flex;
 }
 
-.digite {
-    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 0px;
-    color: inherit;
-    font-weight: 500;
-    letter-spacing: -0.01em;
-    font-size: 0.875rem;
-    line-height: 1.14;
-}
-
-#cpf {
-    border: none;
-    border-width: 0px 0px 1px;
-    display: block;
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 8px 24px 8px 0px;
-    text-align: left;
-    outline: none;
-    width: 90%;
-    border-bottom-style: solid;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.continuar {
-    width: 240px;
-    border-radius: 12px;
-    height: 44px;
-    margin-top: 25px;
-    margin-left: 25px;
-    font-family: sans-serif;
-    font-size: 18px;
-    text-align: left;
-    padding-left: 12px;
-    background-color: #48369f;
-    color: #ffffff;
-}
-
-/*div principal propaganda*/
-
-/* footer */
-
+/* footer */ 
 footer {
-    background: #1f1f24;
-    width: 100%;
-    height: 20vh;
+	background: #1f1f24;
+	width: 100%;
     position: absolute;
-    bottom: 0;
+    margin: 15px 0 0 0;
 }
 
-.container-footer {
+.container-footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -152,37 +87,45 @@ footer {
     font-size: 12px;
 }
 
-.iconeredes {
+.iconeredes{
     width: 25px;
     padding: 0 3px;
     margin: 50% 4px;
 }
 
-.listaicone {
-    display: inline-flex;
+.listaicone{
+   display: inline-flex;
 }
 
-.logo-footer {
+.logo-footer{
     width: 15%;
-
-    margin-left: 1em;
 }
 
-.copyright {
-    margin-top: 8em;
-    padding-right: 10em;
-    font-size: 14px;
+/* Seção Produtos */
+
+.produtos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
-/*Lista-icone*/
+.cardcredito{
+    align-items: center;
+    text-align: center;
+    grid-column: 2;
+    margin: 10px;
 
-.listaicone {
-    padding-left: 1em;
-    margin-right: 5em;
 }
 
-/*secao produtos*/
+.cardsteps{
+    align-items: center;
+    text-align: center;
+    grid-column: 3;
+    margin: 10px;
+}
 
+.imagem-card{
+    border-radius: 5px;
+}
 
 
 .botaoproduto{
@@ -199,113 +142,3 @@ footer {
     text-transform: uppercase;
     font-size: 12px;
 }
-
-
-
-.produto-1 {
-    width: 325px;
-    height: 230px;
-    float: left;
-    margin-top: 5em;
-    margin-left: 130px;
-}
-
-.produto-2 {
-   
-    width: 325px;
-    height: 230px;
-    float: left;
-    margin-top: 5em;
-    padding-left: 16px;
-}
-
-#prop {
-    padding-top: 35px;
-}
-
-img {
-    max-width: 100%;
-}
-
-#credito,
-#controle {
-    border-radius: 8px;
-}
-
-.center {
-    text-align: left;
-}
-
-h3 {
-    text-align: center;
-}
-
-.c1 {
-    margin-top: 3px;
-}
-/*secao produtos*/
-
-
-/*menu-nav*/
-
-.principal:after{
-    content: '.';
-    display: block;
-    clear: both;
-    height: 0;
-    line-height: 0;
-    font-size: 0;
-    visibility: hidden;
-    overflow: hidden;
-}
-.menu,
-.sub-menu {
-    list-style: none;
-    background: #1f1f24;
-}
-.sub-menu {
-    background: #444;
-}
-.menu a {
-    text-decoration: none;
-    display: block;
-    padding: 10px;
-    color: #fff;
-    font-family: sans-serif;
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-.menu li {
-    position: relative;
-}
-.menu > li {
-    float: left;
-}
-.menu > li:hover {
-    background: #444;
-}
-.menu li:hover > .sub-menu {
-    display: block;
-}
-.sub-menu {
-    margin-top: 45px;
-    display: none;
-    position: absolute;
-    min-width: 150px;
-}
-.sub-menu li:hover {
-    background: #555;
-}
-.sub-menu {
-    top: 0;
-    right: 100%;
-}
-
-.menu {
-    
-margin-right: 20px;
-}
-
-/*menu-nav*/
-
