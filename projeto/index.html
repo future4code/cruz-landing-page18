@@ -5,68 +5,121 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+	<link rel="icon" href="img/peace.png" />
+
     <title>Upfour</title>
+
 </head>
+
 <body>
     <header>
         <div class="container">
 
-			<div class="logo">
+			<h1 class="logo">
 				<img src="./img/logo-upfour-header.png" alt="logo Upfour.">
-			</div>
+			</h1>
 
 			<nav class="barra-nav">
+                <div class="menu-container">
+                    <ul class="menu principal">
+                        <li>
+                            <a href="#" class="paravoce">Para você</a>
+                            <ul class="sub-menu principal">
+                                <li><a href="#">Financiamento</a></li>
+                                <li><a href="#">Emprestimo</a></li>
+                                <li><a href="#">Crédito Pessoal</a></li>
+                                <li><a href="#">Investimentos</a></li>
+                                <li><a href="#">Cursos</a></li>
 
-				<ul class="menu-principal">
-					<li><a href="" class="paravoce">Para você</a>
-                    <li><a href="" class="sobrenos">Sobre nós</a>
-					<li><a href="" class="ajuda">Ajuda</a>
-				</ul>
+                            </ul>
+                        </li>
+                        <li>
 
-			</nav>
-		</div>
+                            <a href="" class="sobrenos">Sobre nós</a>
+
+
+                            <ul class="sub-menu principal">
+                                <li><a href="#">Nossa história</a></li>
+                                <li><a href="#">Conduta</a></li>
+                                <li><a href="#">Diversidade</a></li>
+                                <li><a href="#">Parcerias</a></li>
+                            </ul>
+
+                        </li>
+                        <li>
+
+                            <a href="" class="ajuda">Ajuda</a>
+
+                            <ul class= "sub-menu principal">
+                                <li><a href="#">Fale conosco</a></li>
+                                <li><a href="#">Nossas unidades</a></li>
+                                <li><a href="#">Canal de dúvidas</a></li>
+                            </ul>
+
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
     </header>
 
-    <main class="container-sections">
-		<section class="apresentacao">
-
-		</section>
-
-		<section class="container-produtos">
-			<p class="titulo-produtos">Nossos produtos</p>
-			<h1 class="titulo-produtos">O crédito que você precisa!</h1>
-			<div class="produtos">
-				<div class="cardcredito">
-					<img class="imagem-card" src="./img/credito.jpg" alt="imagem com notas de dinheiro com uma calculadora em cima">
-					<h3 class="tituloprodutos"> Crédito pessoal</h3>
-					<p class="descricaoprodutos"> Sistema de crédito para para moradores de periferia se tornarem donos do seu próprio negócio </p>
-					<button class="botaoproduto">Saiba mais</button>
-				</div> 
-				<div class="cardsteps">
-					<img class="imagem-card" src="./img/como-saber-dar-o-proximo-passo.jpg" alt="imagem de uma placa escrita proximo passo">
-					<h3 class="tituloprodutos"> Controle e Orientação Financeira</h3>
-					<p class="descricaoprodutos"> Já possui crédito, porém não sabe por onde começar? Aquí nós te mostraremos o caminho </p>
-					<button class="botaoproduto">Saiba mais</button>
-				</div> 
-			</div> 
-		</section>
-
-	</main>
 
 
-<footer>
-    <div class="container-footer">
-        <img class="logo-footer" src="./img/logo-upfour-header.png" alt="logo Upfour">
-		
+
+    <main class="inscreva-se">
+
+        <div class="produto-1">
+
+            <img id="controle" src="img/como-saber-dar-o-proximo-passo.jpg">
+            <h3>Controle e orientação financeira</h3>
+            <p class="c1">Já possui crédito, porém não sabe por onde começar? Aquí nós te mostraremos o caminho</p>
+            <button class="botaoproduto">Saiba mais</button>
+
+
+        </div>
+
+        <div class="produto-2">
+
+            <img id="credito" src="img/credito.jpg">
+            <h3>Crédito pessoal</h3>
+            <p class="c1">Sistema de crédito para para moradores de periferia se tornarem donos do seu próprio
+                negócio</p>
+            <button class="botaoproduto">Saiba mais</button>
+
+        </div>
+
+
+        <div class="upfour">
+            <h1 id="start">Comece já seu próprio negócio!</h1>
+            <form class="dados-iniciais">
+                <span class="digite">Digite seu CPF</span>
+                <input type="text" id="cpf" name="dados-cpf">
+                <button class="continuar" id="seguir">Continuar</button>
+            </form>
+        </div>
+
+
+    </main>
+
+
+
+
+
+    <footer>
+        <div class="container-footer">
+            <img class="logo-footer" src="./img/logo-upfour-header.png" alt="logo Upfour">
             <p class="copyright">&copy; Copyright Upfour - 2021</p>
-            <ul class="listaicone">                    
-                <a target="_blank" href="https://www.facebook.com/"><img class="iconeredes" src="./img/facebook.png" alt="logo facebook"/></a>
-                <a target="_blank" href="https://instagram.com/"><img class="iconeredes" src="./img/instagram.png" alt="logo instagram"/></a>
-                <a target="_blank" href="https://www.linkedin.com/"><img class="iconeredes" src="./img/linkedin.png" alt="logo linkedin"></a>
+            <ul class="listaicone">
+                <a target="_blank" href="https://www.facebook.com/"><img class="iconeredes" src="./img/facebook.png"
+                        alt="logo facebook" /></a>
+                <a target="_blank" href="https://instagram.com/"><img class="iconeredes" src="./img/instagram.png"
+                        alt="logo instagram" /></a>
+                <a target="_blank" href="https://www.linkedin.com/"><img class="iconeredes" src="./img/linkedin.png"
+                        alt="logo linkedin"></a>
             </ul>
+        </div>
+    </footer>
 
-    </div>
-</footer>
-    
 </body>
+
 </html>
